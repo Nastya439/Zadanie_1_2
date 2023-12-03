@@ -1,0 +1,24 @@
+mkdir git_repo_2
+cd git_repo_2
+git init
+
+git add numbers.txt
+git commit -m "Add numbers.txt"
+
+git remote add origin https://github.com/Nastya439/Zadanie_1_2
+git branch -M master
+git push -u origin master
+
+
+Второе задание:
+git checkout -b branch1234567
+
+git status
+
+git add numbers.txt
+
+git commit -m "branch 1 to 7"
+
+git checkout master
+
+git push origin branch1234567
